@@ -175,8 +175,10 @@ module.exports = {
     
     "jsx-quotes": [2, "prefer-double"],
     "react/display-name": 0,
-    "react/jsx-boolean-value": 0,
+    "react/jsx-boolean-value": 2,
+    "react/jsx-closing-bracket-location": 2,
     "react/jsx-no-undef": 2,
+    "react/jsx-pascal-case": 2,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
     "react/jsx-uses-react": 1,
