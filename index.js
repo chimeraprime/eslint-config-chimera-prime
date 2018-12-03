@@ -26,7 +26,8 @@ module.exports = {
     "Raven": true,
   },
   "plugins": [
-    "react"
+    "react",
+    "import"
   ],
   "rules": {
     "no-var": 2,
@@ -198,5 +199,9 @@ module.exports = {
         "afterOpening": "never"
       }
     ],
+
+    "import/order": [2, {
+      "newlines-between": "always"
+    }]
   }
 }

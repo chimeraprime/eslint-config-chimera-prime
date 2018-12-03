@@ -11,7 +11,7 @@ yarn add @chimeraprime/eslint-config-chimera-prime
 then install peerDependencies:
 
 ```
-yarn add eslint babel-eslint eslint-plugin-react
+yarn add eslint babel-eslint eslint-plugin-react eslint-plugin-import -D
 ```
 
 In your .eslintrc file:
