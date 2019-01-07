@@ -181,7 +181,14 @@ module.exports = {
     "react/jsx-no-undef": 2,
     "react/jsx-pascal-case": 2,
     "react/jsx-sort-prop-types": 0,
-    "react/jsx-sort-props": 0,
+    "react/jsx-sort-props": [2, {
+        "noSortAlphabetically": true,
+        "shorthandFirst": true
+      }
+    ],
+    "react/jsx-no-duplicate-props": [2, {
+      "ignoreCase": true
+    }],
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
     "react/no-multi-comp": 0,
