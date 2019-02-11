@@ -206,6 +206,7 @@ module.exports = {
         "afterOpening": "never"
       }
     ],
+    "react/jsx-no-target-blank": 2,
 
     "import/order": [2, {
       "newlines-between": "always"
