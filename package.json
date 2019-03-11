@@ -13,6 +13,9 @@
   "main": "index.js",
   "author": "Chimera Prime",
   "license": "MIT",
+  "scripts": {
+    "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\""
+  },
   "peerDependencies": {
     "eslint": ">= 4.0.0",
     "babel-eslint": ">= 7.2.2",
